@@ -9,4 +9,9 @@ class FizzBuzzTest {
     fun shouldReturnString_forInteger() {
         assertEquals("1", FizzBuzz().fizzbuzz(1))
     }
+
+    @Test
+    fun shouldReturnFizz_forMultipliesOfThree() {
+        assertEquals("Fizz", FizzBuzz().fizzbuzz(3))
+    }
 }
