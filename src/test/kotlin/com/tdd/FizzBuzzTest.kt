@@ -14,4 +14,9 @@ class FizzBuzzTest {
     fun shouldReturnFizz_forMultipliesOfThree() {
         assertEquals("Fizz", FizzBuzz().fizzbuzz(3))
     }
+
+    @Test
+    fun shouldReturnBuzz_forMultipliesOfFive() {
+        assertEquals("Buzz", FizzBuzz().fizzbuzz(10))
+    }
 }
